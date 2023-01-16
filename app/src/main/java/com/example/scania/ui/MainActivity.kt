@@ -1,8 +1,9 @@
-package com.example.scania
+package com.example.scania.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.scania.R
 import com.example.scania.api.CountriesApi
 import com.example.scania.api.CountriesRepository
 import com.google.gson.Gson
