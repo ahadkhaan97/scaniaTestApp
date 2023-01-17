@@ -1,6 +1,8 @@
 package com.example.scania.model
 
-data class Fra(
+import java.io.Serializable
+
+class Fra(
     val f: String,
     val m: String
-)
+): Serializable

@@ -1,8 +1,9 @@
 package com.example.scania.model
 
+import java.io.Serializable
 import java.util.StringTokenizer
 
-data class AllCountriesResponseItem(
+class AllCountriesResponseItem(
     val altSpellings: List<String>,
     val area: Double,
     val capital: List<String>,
@@ -35,4 +36,4 @@ data class AllCountriesResponseItem(
     val tld: List<String>,
     val translations: HashMap<String, Ara>,
     val unMember: Boolean
-)
+) : Serializable

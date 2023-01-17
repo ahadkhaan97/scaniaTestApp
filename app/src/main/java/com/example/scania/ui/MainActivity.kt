@@ -15,10 +15,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        GlobalScope.launch(Dispatchers.Main) {
-            val response = CountriesRepository(CountriesApi()).getCountries()
-            Log.i("response", Gson().toJson(response))
-        }
     }
 }

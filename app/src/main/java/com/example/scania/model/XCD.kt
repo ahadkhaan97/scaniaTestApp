@@ -1,6 +1,8 @@
 package com.example.scania.model
 
-data class XCD(
+import java.io.Serializable
+
+class XCD(
     val name: String,
     val symbol: String
-)
+) : Serializable

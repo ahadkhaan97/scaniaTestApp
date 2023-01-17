@@ -1,6 +1,8 @@
 package com.example.scania.model
 
-data class Ara(
+import java.io.Serializable
+
+class Ara(
     val common: String,
     val official: String
-)
+): Serializable

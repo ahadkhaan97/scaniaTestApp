@@ -21,7 +21,7 @@
         tools:layout="@layout/fragment_details" />
     <fragment
         android:id="@+id/countriesFragment"
-        android:name="com.example.scania.ui.fragments.CountriesFragment"
+        android:name="com.example.scania.ui.fragments.countries.CountriesFragment"
         android:label="fragment_countries"
         tools:layout="@layout/fragment_countries">
         <action

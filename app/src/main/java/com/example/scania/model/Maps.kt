@@ -1,6 +1,8 @@
 package com.example.scania.model
 
-data class Maps(
+import java.io.Serializable
+
+class Maps(
     val googleMaps: String,
     val openStreetMaps: String
-)
+): Serializable

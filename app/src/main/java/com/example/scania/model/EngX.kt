@@ -1,6 +1,8 @@
 package com.example.scania.model
 
-data class EngX(
+import java.io.Serializable
+
+class EngX(
     val common: String,
     val official: String
-)
+): Serializable
